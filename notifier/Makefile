@@ -1,4 +1,4 @@
-SERVICE_NAME=user
+SERVICE_NAME=notifier
 
 DOCKER_NAME="e-gommerce-${SERVICE_NAME}"
 DOCKER_NETWORK=e-gommerce

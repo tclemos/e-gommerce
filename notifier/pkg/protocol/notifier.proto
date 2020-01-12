@@ -1,0 +1,16 @@
+syntax = "proto3";
+package egomerce.notifier;
+option go_package = "protocol";
+
+service NotifierService {
+  rpc SendEmail(SendEmailRequest) returns (SendEmailResponse);
+}
+
+message SendEmailRequest {
+  string email = 1;
+  string content = 2;
+}
+
+message SendEmailResponse {
+  string id = 1;
+}

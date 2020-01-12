@@ -1,4 +1,4 @@
-module github.com/tclemos/e-gommerce/user
+module github.com/tclemos/e-gommerce/notifier
 
 go 1.13
 
